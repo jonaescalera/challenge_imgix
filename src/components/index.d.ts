@@ -1,0 +1,1 @@
+declare module 'imgix-url-params/dist/parameters';

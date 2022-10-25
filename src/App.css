@@ -1,0 +1,55 @@
+.header {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background-color: gray;
+  }
+  
+  .header__h1{
+    padding: .5rem 0.25rem;
+    margin:0;
+  }
+  
+  .section{
+    position: fixed;
+    left:0;
+    top:3.75rem;
+    overflow-y: auto;
+    bottom: 0;
+    background-color: lightgray;
+  }
+  
+  .section__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .section__list button{
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+  }
+  
+  /* .section__list li :last-child{
+    margin-top: 0px;
+  } */
+  
+  .main{
+    position: fixed;
+    top: 3.75rem;
+    left:12.5rem;
+    display: flex;
+    width: calc(100% - 12.5rem);
+    flex-direction: column;
+    align-items: center;
+    height: 34.375rem;
+    overflow-y: auto;
+  }
+  
+  .main__controls{
+    margin-top: auto;
+  }
+  
+  
